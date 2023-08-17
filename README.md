@@ -18,8 +18,9 @@ This PowerShell uses the Invitation API REST endpoints for Conversion of a exist
 		 > **User.Invite.All**
 	 - Grant admin consent for your Tenant
 	 - Under Authentication Blade Update the Redirect URIs and add the following:
-		 - https://login.microsoftonline.com/common/oauth2/nativecleint
-		 - http://localhost
+	> 		https://login.microsoftonline.com/common/oauth2/nativecleint
+ 
+   	> 		http://localhost
 	 - While in Authentication tick the checkboxes for Access tokens and ID tokens
 	 - Supported account types can remain as "Accounts in  this organization directory only..."
 	 - Open the Certificates & Secrets Blade
