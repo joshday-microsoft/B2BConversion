@@ -10,6 +10,7 @@ This PowerShell uses the Invitation API REST endpoints for Conversion of a Guest
 	 - Update the API Permissions
 	 - Add the following API Permissions
 		 >**User.ReadWrite.All**
+		 
 		 > **User.Invite.All**
 	 - Grant admin consent for your Tenant
 	 - Under Authentication Blade Update the Redirect URIs and add the following:
