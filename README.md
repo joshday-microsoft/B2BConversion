@@ -1,6 +1,10 @@
-# B2B Conversion
+Recently Microsoft announced the deprecation of legacy PowerShell modules that are required in scenarios not yet available in Microsoft Graph PowerShell SDK. Microsoft recongnized the need to allow time for admins and developers to update their codes, there, postponing the deprecation date for MS Online, AzureAD, and AzureAD Preview PowerShell modules to March 30, 2024.
 
-This PowerShell uses the Invitation API REST endpoints for Conversion of a Guest user account created in an Azure Tenant to a B2B Collaboration Account
+This solution provides admins and developers with a workaround to support New-MgInvitation. According to Microsoft documentation, the legacy New-AzureADMSInvitation (AzureAD Module) is replaced with the New-MgInvitation (Microsoft.Graph Module). Currently, New-MgInvitation only support the creation of new invitations, and does not support existing userObjects. This issue has been reported to Microsoft.
+
+# B2B Conversion Kit
+
+This PowerShell uses the Invitation API REST endpoints for Conversion of a existing internal Guest User account created in an Azure Tenant to a B2B Collaboration Account
 
 ## Prerequisites 
  - App Registration
