@@ -1,6 +1,6 @@
-Recently Microsoft announced the deprecation of legacy PowerShell modules that are required in scenarios not yet available in Microsoft Graph PowerShell SDK. Microsoft recongnized the need to allow time for admins and developers to update their codes, there, postponing the deprecation date for MS Online, AzureAD, and AzureAD Preview PowerShell modules to March 30, 2024.
+Recently Microsoft announced the deprecation of legacy PowerShell modules that are required in scenarios not yet available in Microsoft Graph PowerShell SDK. Microsoft recongnized the need to allow time for admins and developers to update their PowerShell code/cmdlets, postponing the deprecation date for MS Online, AzureAD, and AzureAD Preview PowerShell modules to March 30, 2024.
 
-This solution provides admins and developers with a workaround to support New-MgInvitation. According to Microsoft documentation, the legacy New-AzureADMSInvitation (AzureAD Module) is replaced with the New-MgInvitation (Microsoft.Graph Module). Currently, New-MgInvitation only support the creation of new invitations, and does not support existing userObjects. This issue has been reported to Microsoft.
+This solution provides admins and developers with a workaround to support New-MgInvitation. According to Microsoft documentation, the legacy New-AzureADMSInvitation (AzureAD Module) is replaced with the New-MgInvitation (Microsoft.Graph Module). Currently, New-MgInvitation only support the creation of new invitations, and does not support existing user objects. This issue has been reported to Microsoft.
 
 # B2B Conversion Kit
 
